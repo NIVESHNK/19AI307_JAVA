@@ -24,13 +24,30 @@ b)	Call the 'calculateArea' method on the 'rectangle' object
  ```
 /*
 Program to implement a User Defined Method using Java
-Developed by: 
-RegisterNumber:  
+Developed by: NIVESH N K
+RegisterNumber:  212224050027
 */
 ```
 
 ## Sourcecode.java:
-
+```
+import java.util.*;
+public class Area {
+        double calculateArea()
+    {
+        double radius,cirarea;
+        Scanner sc=new Scanner(System.in);
+        radius=sc.nextDouble();
+        cirarea=3.14*radius*radius;
+        return cirarea;
+    }
+        public static void main(String[] args) {
+       Area obj=new Area();
+       double area=obj.calculateArea();
+       System.out.println("Area of Circle is "+area);
+    }
+}
+```
 
 
 
@@ -38,6 +55,7 @@ RegisterNumber:
 
 
 ## OUTPUT:
+<img width="823" height="329" alt="image" src="https://github.com/user-attachments/assets/2ff0cc43-f745-4a06-97c3-a47289ffa0da" />
 
 
 
