@@ -15,33 +15,35 @@ To Create a java program use replace() method replaces the given String from the
 7.	End
 
 
-
-
-
-
 ## PROGRAM:
  ```
 /*
 Program to implement a String Builder using Java
-Developed by: 
-RegisterNumber:  
+Developed by: NIVESH N K
+RegisterNumber: 212224050027
 */
 ```
 
 ## Sourcecode.java:
 
-
-
-
-
+```
+import java.util.Scanner;
+public class StringBufferExample3{  
+public static void main(String args[]){ 
+Scanner sc=new Scanner(System.in);
+String str1=sc.nextLine();
+StringBuffer sb=new StringBuffer(str1);  
+sb.replace(1,3,"Java");  
+System.out.println(sb); 
+}  
+}
+```
 
 
 ## OUTPUT:
 
+![437522911-236ea5c1-5152-43a3-9032-02b8ae2e1831](https://github.com/user-attachments/assets/b1bfe2ab-5c28-4f54-a8c6-79b3438c8a68)
 
 
 ## RESULT:
 Thus the java program use replace() method replaces the given String from the specified beginIndex and endIndex and use stringbuilder was executed successfully.
-
-
-
