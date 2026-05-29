@@ -12,29 +12,37 @@ To create a java program to read input and print length of the string in java.
 5.	End
 
 
-
-
 ## PROGRAM:
  ```
 /*
 Program to implement a String and its Operations using Java
-Developed by: 
-RegisterNumber:  
+Developed by: NIVESH N K
+RegisterNumber:212224050027
 */
 ```
 
 ## Sourcecode.java:
+```
+import java.util.Scanner;
+public class Main {
+	public static void main(String[] args)
+	{
+    	// Here str is a string object
+   	Scanner sc = new Scanner(System.in);  // Create a Scanner object
+   	String str = sc.nextLine();
 
-
-
-
-
-
-
+ 
+    	System.out.println(
+        	"The size of "
+        	+ "the String is "
+        	+ str.length());
+	}
+}
+```
 ## OUTPUT:
 
+![437518982-4182d974-4794-4220-94a1-2db096882f0b](https://github.com/user-attachments/assets/cef7978d-0383-4024-b0f8-981da97f8fb5)
 
 
 ## RESULT:
 Thus the java Program to read input and print length of the string in java was executed successfully.
-
