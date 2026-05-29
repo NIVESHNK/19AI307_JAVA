@@ -15,27 +15,35 @@ To create a java program using StringTokenizer class that tokenizes a string "My
 6.	End
 
 
-
-
 ## PROGRAM:
  ```
 /*
 Program to implement a String Tokenizer using Java
-Developed by: 
-RegisterNumber:  
+Developed by: NIVESH N K
+RegisterNumber:212224050027
 */
 ```
 
 ## Sourcecode.java:
 
+```
+import java.util.*;
+public class GFG {
+	public static void main(String[] args)
+	{
+	    Scanner sc=new Scanner(System.in);
+                   String str = sc.nextLine();
+                   String[] split = str.split(" ");
+           	   for (int i = 0; i < split.length; i++)
+                            System.out.println(split[i]);
+  }
+}
 
-
-
-
-
+```
 
 ## OUTPUT:
 
+![437523706-75834d6e-4726-4fab-a784-700c00296ddc](https://github.com/user-attachments/assets/dd5ac7be-55a9-412d-91d9-10fff6c5c13e)
 
 
 ## RESULT:
