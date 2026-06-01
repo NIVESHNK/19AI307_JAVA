@@ -21,20 +21,68 @@ b.	Create an object of ArrayOperation and call findMax() by passing the ArrayDat
  ```
 /*
 Program to implement a HAS-A RelationShip
-Developed by: 
-RegisterNumber:  
+Developed by: NIVESH N K
+RegisterNumber:  212224050027
 */
 ```
 
 ## Sourcecode.java:
 
+```
+import java.util.Scanner;
 
+class ArrayData {
+    int arr[];
+    int size;
+
+    void readData() {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter size of array: ");
+        size = sc.nextInt();
+
+        arr = new int[size];
+
+        System.out.println("Enter array elements:");
+        for (int i = 0; i < size; i++) {
+            arr[i] = sc.nextInt();
+        }
+    }
+}
+
+class ArrayOperation {
+
+    void findMax(ArrayData data) {
+        int max = data.arr[0];
+
+        for (int i = 1; i < data.size; i++) {
+            if (data.arr[i] > max) {
+                max = data.arr[i];
+            }
+        }
+
+        System.out.println("Largest number is: " + max);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        ArrayData obj1 = new ArrayData();
+        obj1.readData();
+
+        ArrayOperation obj2 = new ArrayOperation();
+        obj2.findMax(obj1);
+    }
+}
+```
 
 
 
 
 
 ## OUTPUT:
+<img width="590" height="285" alt="image" src="https://github.com/user-attachments/assets/c952ea0d-563d-437b-bf46-16b9a339f595" />
+
 
 
 
