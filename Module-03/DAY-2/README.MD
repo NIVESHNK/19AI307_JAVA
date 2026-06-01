@@ -56,6 +56,10 @@ public class concat {
 ## OUTPUT:
 
 ```
+Output
+ro
+man
+Concatenated String: ro man
 
 ```
 
