@@ -24,22 +24,40 @@ To develop a java program use append() method concatenates the given argument wi
  ```
 /*
 Program to implement a String Buffer using Java
-Developed by: 
-RegisterNumber:  
+Developed by: NIVESH N K
+RegisterNumber:  212224050027
 */
 ```
 
 ## Sourcecode.java:
+```
+import java.util.Scanner;
 
+public class concat {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
 
+        String a = sc.nextLine();
+        String b = sc.nextLine();
 
+        StringBuffer sb = new StringBuffer(a);
 
+        sb.append(" ").append(b);
+
+        System.out.println("Concatenated String: " + sb);
+
+        sc.close();
+    }
+}
+```
 
 
 
 ## OUTPUT:
 
+```
 
+```
 
 ## RESULT:
 Thus the java program use append() method concatenates the given argument with this String and use stringbuffer class was executed successfully.
